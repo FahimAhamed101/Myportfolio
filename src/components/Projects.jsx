@@ -2,8 +2,9 @@
 import Raouf from "../images/ecom.webp";
 import ProBox from "./ProBox";
 import CarRental from "../images/Car-rental.png";
-
-
+import webshop from "../images/webshop.png";
+import Greatcart from "../images/GreatKart.png";
+import Startup from "../images/NextJS-Landing-Page.png";
 function Projects() {
   return (
     <>
@@ -37,6 +38,40 @@ function Projects() {
                 scrollY="-71%"
                 icon="🛒"
                 cName="reversed-proj"
+              />
+                <ProBox
+                title="Greatcart"
+                img={Greatcart}
+                description="Greatcart-One-of-the-Biggest-Online-Shopping-Platform."
+                techno1="Django"
+                techno2="CSS"
+                code="https://github.com/FahimAhamed101/djsjhopp"
+                demo="https://web-production-7c95.up.railway.app/en/"
+                scrollY="-83%"
+                icon="🛒"
+              />
+                <ProBox
+                title="webshop Ecommerce"
+                img={webshop}
+                description="With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need."
+                techno1="Django"
+                techno2="Vanila CSS"
+                code="https://github.com/FahimAhamed101/webshop"
+                demo="https://webshop-production.up.railway.app/"
+                scrollY="-71%"
+                icon="🛒"
+                cName="reversed-proj"
+              />
+              <ProBox
+                title="Startuplandings"
+                img={Startup}
+                description="Startuplandings-One-of-the-Best-Online-Startup-Platform."
+                techno1="Nextjs"
+                techno2="MUI"
+                code="https://github.com/FahimAhamed101/nexrjs"
+                demo="https://nextjslanding-rouge.vercel.app/"
+                scrollY="-83%"
+                icon="🛒"
               />
             </div>
           </div>
