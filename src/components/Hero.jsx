@@ -74,6 +74,14 @@ function Hero() {
                     <i className="fa-brands fa-youtube"></i>
                   </a>
                   
+                  <a
+                    aria-label="resume"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1ocI_aIxXU4lnELqh3h4zqeBfhknULle2/view?usp=sharing"
+                  >
+                 Resume<i class="fa-brands fa-studiovinari"></i>
+                  </a>
                 </span>
               </div>
 

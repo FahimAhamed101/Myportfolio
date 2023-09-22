@@ -1,8 +1,8 @@
-import Gymate from "../images/gymate-home.webp";
+
 import Raouf from "../images/ecom.webp";
 import ProBox from "./ProBox";
-import CarRental from "../images/car-rental-full.webp";
-import CoinDom from "../images/coindom-full.png";
+import CarRental from "../images/Car-rental.png";
+
 
 function Projects() {
   return (
@@ -17,38 +17,14 @@ function Projects() {
                 title="Car Rental"
                 img={CarRental}
                 description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-                techno1="React"
-                techno2="SCSS"
-                code="https://github.com/stefvndev/car-rental"
-                demo="https://car-rental-ten.vercel.app/"
+                techno1="Django"
+                techno2="CSS"
+                code="https://github.com/FahimAhamed101/django-car"
+                demo="https://django-car.vercel.app/"
                 scrollY="-83%"
                 icon="🚗"
               />
 
-              <ProBox
-                title="coindom"
-                img={CoinDom}
-                description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
-                techno1="React"
-                techno2="SCSS"
-                code="https://github.com/stefvndev/coindom-crypto"
-                demo="https://coindom-crypto-search.vercel.app/"
-                scrollY="-74%"
-                icon="🪙"
-                cName="reversed-proj"
-              />
-
-              <ProBox
-                title="gymate"
-                img={Gymate}
-                description="A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals."
-                techno1="React"
-                techno2="Tailwind CSS"
-                code="https://github.com/stefvndev/Gymate"
-                demo="https://gymate-iota.vercel.app/"
-                scrollY="-89%"
-                icon="🏋️"
-              />
 
               <ProBox
                 title="Raouf Ecommerce"
@@ -56,7 +32,7 @@ function Projects() {
                 description="With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need."
                 techno1="React"
                 techno2="Vanila CSS"
-                code="https://github.com/stefvndev/Minimalist-E-commerce"
+                code="https://github.com/FahimAhamed101/Minimalist-E-commerce"
                 demo="https://minimalist-e-commerce.vercel.app/"
                 scrollY="-71%"
                 icon="🛒"
